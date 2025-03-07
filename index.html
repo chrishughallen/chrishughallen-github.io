@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris Allen</title>
+
+    <style>
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      main {
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: 1fr minmax(0, 75ch) 1fr;
+        font-family: monospace;
+        font-size: 1rem;
+
+        & > * {
+          grid-column: 2;
+        }
+
+        ul {
+          list-style-position: outside;
+          padding-left: 1em;
+        }
+
+        & > section {
+          display: grid;
+          gap: 2.5rem;
+
+          & > article {
+            display: grid;
+            gap: 1.25rem;
+            border-bottom: 1px solid grey;
+            padding-bottom: 2.5rem;
+
+            & > h1 {
+              font-size: 1.875rem;
+            }
+          }
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <section>
+        <article>
+          <h1>Chris Allen</h1>
+          <h2>About Me</h2>
+          <p>An American based in Paris. <br> Soon to be (fingers crossed) A French citizen!</p>
+        </article>
+        
+        <!-- <article>
+          <h4>Why do I prefer living in France?</h4>
+          <p>I find that quality of life is better and more easily attainable in France. Cooking is a big passion of mine, and living in the country that basically invented gastronomy very enjoyable. I find that the French way of living focuses more on enjoying the mundane and dedicating time to pleasure instead of only work. Also living life in a different culture presents challenges and opportunities to learn and grow everyday, which I enjoy!</p>
+        </article>
+       -->
+        <article>
+          <h2>Profession</h2>
+          <p>Full-stack web developer. I currently hold the role of front end developer at <a href="https://www.bergamotte.com" target="_blank">Bergamotte</a>.</p>
+          <p>I also built and manage <a href="https://www.legacyprofile.com" target="_blank">LegacyProfile.com</a></p>
+          <p>My proficiencies include HTML, CSS, Javascript, and Ruby On Rails.</p>
+        </article>
+
+
+        <article>
+          <h2>Hobbies & Interests</h2>
+          <h3>Cooking:</h3>
+          <p>Living in France has afforded me the luxury of learning about the history of cuisine and fully embracing the art of cooking. I enjoy the creative aspect of creating a meal with an immediate payoff of flavor.</p>
+          <p>Whether it's just cooking a simple 3 ingredient recipe for myself, or a full <em>Entrée Plat Désert</em> menu for friends or family.</p>
+
+          <h3>Music:</h3>
+          <p>I have been playing the guitar since I was about 12 years old, so more than 25 years (ooph, I'm getting older). I played in a Rock and Roll band in Texas for a couple of years before relocating to Paris, which is a memory very close to my heart. Living in an apartment in Paris means focusing more on Acoustic guitar, which I've come to really enjoy playing as well.</p>
+          <p>I am very passionate about music and pride myself on being able to find enjoyment in listening to all different genres.</p>
+          <p>I also very much enjoy creating music with Digital Audio Workstations like Garageband.</p>
+
+          <h3>Running</h3>
+          <p>In 2024 I started running, and it's grown on me to the point that now I find myself making time to go running instead of felling like I have to exercise.</p>
+          <p>I enjoy the simplicity and freedom of running. Knowing that it can be done anywhere in the world at anytime, and with minimal equipment makes me appreciate it even more.</p>
+          <p>In March of 2025 I will run in my first Half Marathon in Paris!</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
