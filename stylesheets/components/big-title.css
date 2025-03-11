@@ -1,0 +1,4 @@
+.big-title {
+  font-size: var(--font-size-largest);
+  font-family: var(--font-family-monospace);
+}

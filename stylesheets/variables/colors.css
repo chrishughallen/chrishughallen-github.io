@@ -1,0 +1,32 @@
+:root {
+  --color-text: #050315;
+  --color-background: #fbfbfe;
+  --color-primary: #2f27ce;
+  --color-secondary: #dedcff;
+  --color-accent: #433bff;
+  --color-forest-green: #275643;
+  --color-pink: #efb8ae;
+  --color-light-blue: #7ab7c8;
+  --color-beige: #F4EADD;
+  --color-dark-blue: #2c458d;
+}
+
+.bg-light-blue {
+  background: var(--color-light-blue);
+}
+
+.bg-forest-green {
+  background: var(--color-forest-green);
+}
+
+.bg-pink {
+  background: var(--color-pink);
+}
+
+.bg-dark-blue {
+  background: var(--color-dark-blue);
+}
+
+.text-light {
+  color: #fff;
+}

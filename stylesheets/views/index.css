@@ -1,0 +1,30 @@
+@import url("../imports.css");
+@import url("../components/navbar.css");
+@import url("../components/big-title.css");
+
+body {
+  main {
+    scroll-snap-type: y mandatory; /* Vertical snapping */
+    overflow-y: scroll; /* Enable scrolling */
+    height: 100vh; /* Full viewport height */
+
+    & > * {
+      grid-column: 2;
+    }
+
+    section {
+      display: grid;
+      grid-template-columns: 1fr minmax(auto, 75ch) 1fr;
+    }
+
+    article {
+      grid-column: 2;
+      padding: var(--spacing-s);
+      height: 100vh; /* Full height */
+      display: grid;
+      align-items: center;
+      align-content: center;
+      scroll-snap-align: start;
+    }
+  }
+}
